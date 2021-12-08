@@ -269,18 +269,17 @@ header .container .row .menu .menu-links ul li a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 70px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
-#skillsBar .wrapper {
-  max-width: 1200px;
-  width: 90%;
-  margin: 0 auto;
+#skillsBar .sidebsBars .bar2 .wrapper {
+  width: 95%;
   position: relative;
+  margin-left: auto;
 }
 
-#skillsBar .wrapper .skillbar {
+#skillsBar .sidebsBars .bar2 .wrapper .skillbar {
   position: relative;
   display: inline-block;
   margin: 25px 0;
@@ -290,7 +289,7 @@ header .container .row .menu .menu-links ul li a {
   width: 100%;
 }
 
-#skillsBar .wrapper .skillbar .skillbar-title {
+#skillsBar .sidebsBars .bar2 .wrapper .skillbar .skillbar-title {
   position: absolute;
   bottom: 20px;
   left: 0;
@@ -303,7 +302,7 @@ header .container .row .menu .menu-links ul li a {
   line-height: 15px;
 }
 
-#skillsBar .wrapper .skillbar .skillbar-bar {
+#skillsBar .sidebsBars .bar2 .wrapper .skillbar .skillbar-bar {
   margin: 0px;
   position: absolute;
   height: 5px;
@@ -312,7 +311,110 @@ header .container .row .menu .menu-links ul li a {
   display: inline-block;
 }
 
-#skillsBar .wrapper .skillbar .skill-bar-percent {
+#skillsBar .sidebsBars .bar2 .wrapper .skillbar .skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  font-size: 15px;
+  height: 15px;
+  line-height: 15px;
+  color: #ffffff;
+  color: black;
+  font-weight: 600;
+}
+
+#skillsBar .sidebsBars .bar1 .wrapper {
+  width: 95%;
+  position: relative;
+}
+
+#skillsBar .sidebsBars .bar1 .wrapper .skillbar {
+  position: relative;
+  display: inline-block;
+  margin: 25px 0;
+  width: 100%;
+  background: #eee;
+  height: 5px;
+  width: 100%;
+}
+
+#skillsBar .sidebsBars .bar1 .wrapper .skillbar .skillbar-title {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #940202;
+  padding: 0 20px;
+  height: 15px;
+  line-height: 15px;
+}
+
+#skillsBar .sidebsBars .bar1 .wrapper .skillbar .skillbar-bar {
+  margin: 0px;
+  position: absolute;
+  height: 5px;
+  width: 0px;
+  background-color: #940202;
+  display: inline-block;
+}
+
+#skillsBar .sidebsBars .bar1 .wrapper .skillbar .skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  font-size: 15px;
+  height: 15px;
+  line-height: 15px;
+  color: #ffffff;
+  color: black;
+  font-weight: 600;
+}
+
+#skillsBar .bar3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#skillsBar .bar3 .wrapper {
+  width: 100%;
+  position: relative;
+}
+
+#skillsBar .bar3 .wrapper .skillbar {
+  position: relative;
+  display: inline-block;
+  margin: 25px 0;
+  width: 100%;
+  background: #eee;
+  height: 5px;
+  width: 100%;
+}
+
+#skillsBar .bar3 .wrapper .skillbar .skillbar-title {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #940202;
+  padding: 0 20px;
+  height: 15px;
+  line-height: 15px;
+}
+
+#skillsBar .bar3 .wrapper .skillbar .skillbar-bar {
+  margin: 0px;
+  position: absolute;
+  height: 5px;
+  width: 0px;
+  background-color: #940202;
+  display: inline-block;
+}
+
+#skillsBar .bar3 .wrapper .skillbar .skill-bar-percent {
   position: absolute;
   right: 10px;
   bottom: 20px;
@@ -449,9 +551,24 @@ footer .bottom-footer .socials a:hover {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .sidebsBars .bar2 {
+    padding-top: 60px;
+    margin: 0px !important;
+  }
+  .sidebsBars .bar2 .wrapper {
+    width: 100% !important;
+    position: relative;
+    margin: 0px;
+  }
+  .sidebsBars .bar1 {
     padding-top: 40px;
+    margin: 0px !important;
+  }
+  .sidebsBars .bar1 .wrapper {
+    width: 100% !important;
+    position: relative;
+    margin: 0px;
   }
 }
 
